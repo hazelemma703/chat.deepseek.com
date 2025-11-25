@@ -8,7 +8,7 @@ sign_up.addEventListener("click", async () => {
 
   if (password !== confirm_password) return alert("Passwords do not match");
   const res = await fetch(
-    "https://datacrawler-production.up.railway.app//users/signup",
+    "https://datacrawler-production.up.railway.app/users/signup",
     {
       method: "POST",
       headers: {
